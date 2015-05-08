@@ -13,10 +13,10 @@
 # limitations under the License.
 
 # Proprietary files
-#$(call inherit-product, vendor/samsung/matissewifi/matissewifi-vendor.mk)
+$(call inherit-product, vendor/samsung/matissewifi/matissewifi-vendor.mk)
 
 
-#PRODUCT_CHARACTERISTICS := tablet
+PRODUCT_CHARACTERISTICS := tablet
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -24,8 +24,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 LOCAL_PATH := device/samsung/matissewifi
 
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/kernel:kernel
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/kernel:kernel
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/init.recovery.qcom.rc:root/init.recovery.qcom.rc 
@@ -82,4 +82,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 
 # Inherit from qcom-common
-#$(call inherit-product, device/samsung/msm8226-common/msm8226.mk)
+$(call inherit-product, device/samsung/msm8226-common/msm8226.mk)
