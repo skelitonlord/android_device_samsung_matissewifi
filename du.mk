@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 TARGET_BOOTANIMATION_SIZE := 1280x800
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common_tablet.mk)
+$(call inherit-product, vendor/du/config/common_full_tablet_wifionly.mk)
 
 # Inherit from matissewifi device
 $(call inherit-product, device/samsung/matissewifi/device.mk)
@@ -31,7 +31,7 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 # Device identifier. This must come after all inclusions
 PRODUCT_RELEASE_NAME := matissewifi
 PRODUCT_DEVICE := matissewifi
-PRODUCT_NAME := omni_matissewifi
+PRODUCT_NAME := du_matissewifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T530
 
