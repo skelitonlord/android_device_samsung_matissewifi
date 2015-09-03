@@ -47,7 +47,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 
 #TARGET_KERNEL_SOURCE := kernel/samsung/matissewifi
-#TARGET_KERNEL_CONFIG := twrp-matissewifi_defconfig
+TARGET_KERNEL_CONFIG := du_matissewifi_defconfig
 #TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 #TARGET_KERNEL_VARIANT_CONFIG := msm8226-sec_matissewifi_defconfig
 
