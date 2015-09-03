@@ -38,7 +38,7 @@ TARGET_LIBINIT_DEFINES_FILE := $(LOCAL_PATH)/init/init_matissewifi.c
 
 # Kernel
 #BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg-lzma.mk
-BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/custombootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg.mk
 #BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --dt device/samsung/matissewifi/dtb --tags_offset 0x01e00000
 #BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x1e00000
 BOARD_KERNEL_BASE := 0x00000000
