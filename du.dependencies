@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-+<manifest>
-+
-+    <remote name="skelitonlord" fetch="https://github.com/skelitonlord" />
-+    <remote name="cm" fetch="https://github.com/cyanogenmod" />
-+	
-+        <project path="android_device_samsung_matissewifi" name="device/samsung/matissewifi" remote="skelitonlord" revision="lollipop-caf" />
-+
-+	        <project path="android_kernel_samsung_matissewifi" name="kernel/samsung/matissewifi" remote="skelitonlord" revision="lollipop-caf" />
-+
-+	        <project path="android_device_samsung_qcom-common" name="device/samsung/qcom-common" remote="skelitonlord" revision="lollipop-caf" />
-+
-+	        <project path="android_hardware_samsung" name="hardware/samsung" remote="skelitonlord" revision="lollipop-caf" />
-+
-+	        <project path="android_hardware_qcom_fm" name="hardware/qcom/fm" remote="cm" revision="cm-12.0" />
-+
-+	        <project path="android_device_qcom_common" name="device/qcom/common" remote="cm" revision="cm-12.0" />
-+	
-+</manifest>
+<manifest>
+
+    <remote name="skelitonlord" fetch="https://github.com/skelitonlord" />
+    <remote name="cm" fetch="https://github.com/cyanogenmod" />
+	
+        	<project name="android_device_samsung_matissewifi" path="device/samsung/matissewifi" remote="skelitonlord" revision="lollipop-caf" />
+
+	        <project name="android_kernel_samsung_matissewifi" path="kernel/samsung/matissewifi" remote="skelitonlord" revision="lollipop-caf" />
+
+	        <project name="android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="skelitonlord" revision="lollipop-caf" />
+
+	        <project name="android_hardware_samsung" path="hardware/samsung" remote="skelitonlord" revision="lollipop-caf" />
+
+	        <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="cm" revision="cm-12.0" />
+
+	        <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-12.0" />
+	
+</manifest>
